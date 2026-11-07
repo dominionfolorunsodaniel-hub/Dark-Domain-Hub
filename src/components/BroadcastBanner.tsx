@@ -1,3 +1,7 @@
-export default function BroadcastBanner() {
-  return <div className="w-full h-12 bg-slate-900 border-b border-slate-700">Broadcast Banner</div>;
+export function BroadcastBanner() {
+  return (
+    <div className="bg-blue-600 text-white text-center py-2 text-sm">
+      SYSTEM ONLINE
+    </div>
+  );
 }
