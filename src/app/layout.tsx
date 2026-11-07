@@ -18,7 +18,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      {/* FIXED: Added backticks around the className string */}
       <body className={`${inter.className} bg-slate-900 text-slate-50 flex h-screen overflow-hidden`}>
         <Sidebar />
         <div className="flex-1 flex flex-col relative">
